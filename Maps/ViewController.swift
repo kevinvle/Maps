@@ -17,7 +17,6 @@ class ViewController: UIViewController, MKMapViewDelegate { // Add MKMap* to all
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        
         let latitude: CLLocationDegrees = 27.1
         
         let longitude: CLLocationDegrees = 78.0
