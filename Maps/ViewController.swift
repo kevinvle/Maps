@@ -43,7 +43,7 @@ class ViewController: UIViewController, MKMapViewDelegate { // Add MKMap* to all
         
         map.addAnnotation(annotation)
         
-        let uilpgr = UILongPressGestureRecognizer(target: self, action: #selector(ViewController.longPress(gestureRecognizer:))) // UI long press gesture recognizer; target is view controller. starting with action: #selector***, we get new syntax because of xcode 8. We access longpress methor through view controller
+        let uilpgr = UILongPressGestureRecognizer(target: self, action: #selector(ViewController.longPress(gestureRecognizer:))) // UI long press gesture recognizer; target is view controller. starting with action: #selector***, we get new syntax because of xcode 8. We access longpress method through view controller
         
         uilpgr.minimumPressDuration = 0.5
         
