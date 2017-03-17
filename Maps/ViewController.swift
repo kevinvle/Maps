@@ -35,9 +35,9 @@ class ViewController: UIViewController, MKMapViewDelegate { // Add MKMap* to all
         
         let annotation = MKPointAnnotation() // Going to have annotations on my map
         
-        annotation.title = "Taj Mahal"
+        annotation.title = "Parking Spot 1 "
         
-        annotation.subtitle = "One day I'll go here..."
+        annotation.subtitle = "Let's go!"
         
         annotation.coordinate = coordinates
         
@@ -49,10 +49,7 @@ class ViewController: UIViewController, MKMapViewDelegate { // Add MKMap* to all
         
         map.addGestureRecognizer(uilpgr)
         
-        
-        
     }
-    
     
     func longPress(gestureRecognizer: UIGestureRecognizer) { // We want this method to receive a variable called gestureRecognizer and this is going to have type: UIGestureRecognizer. The colon in "longpress:" is important because the information can get sent and receive it in the variable
         
@@ -75,9 +72,6 @@ class ViewController: UIViewController, MKMapViewDelegate { // Add MKMap* to all
         }
 
     }
-    
-
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
